@@ -14,6 +14,7 @@ exports.regexAnswers = {
   },
 
   captureThreeNumbers : function(str) {
+    
     var match = (/\d{3}/).exec(str);
     return match?match[0]:false;
   },
